@@ -10,8 +10,16 @@ prompt.get(['tiempo'], function(err, result){
 const valorHora = 1500; 
 let tiempo = result.tiempo;
 
-let resultado = (valorHora * tiempo)/60;
+let resultadoPrecio = (valorHora * tiempo)/60;
+let resultadoHoras = tiempo/60;
+let dosDecimales = resultadoHoras.toFixed(2);
 
-console.log('Debe Pagar por tiempo en parqueo: '+ resultado);
+if (dosDecimales >= 1){
+console.log('Debe Pagar por tiempo en parqueo: '+ resultadoPrecio + ' por un total de '+ dosDecimales + ' horas');
+}
+else{
+    console.log('Debe Pagar por tiempo en parqueo: '+ resultadoPrecio + ' por un total de '+ tiempo + ' minutos');
+}
+
 
 });
