@@ -13,7 +13,7 @@ var prompt = require('prompt');
     // Log the results.
     //
     console.log('Datos Ingresados:');
-    console.log('  Nombre: ' + result.username);
+    console.log('  Nombre: ' + result.nombre);
     console.log('  email: ' + result.email);
     console.log("Muchas Gracias");
 });
