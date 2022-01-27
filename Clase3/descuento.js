@@ -44,27 +44,7 @@ var prompt = require('prompt');
      
 
     }
-
-
-    
- 
-    
-
-    /
- 
-    
-    
-    
-    // regalos por mas de 3 docenas, por cada docena se regala 1 unidad de producto
-
-   //si cantidad de docenas es mayor que 3
    
    
-   
-
-
-
-
-
 
 });
