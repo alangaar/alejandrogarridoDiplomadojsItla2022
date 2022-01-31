@@ -1,0 +1,14 @@
+{
+  "name": "clase_4",
+  "version": "1.0.0",
+  "description": "prueba switch",
+  "main": "Condiciones Switch_Case.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Garrido",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
+}
