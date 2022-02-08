@@ -1,5 +1,5 @@
-var prompt = require('prompt');
-  prompt.start();
+const prompt = require('prompt');
+prompt.start();
 
   //
   // 2 propiedades desde el usuario
