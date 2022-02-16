@@ -6,7 +6,7 @@ const path = require('node:path');
 app.use(express.static('asset/'))
 
 
-// ruta para HTML
+// rutas para HTML
 app.get('/', function(request, response) { 
 response.sendFile(path.join(__dirname, '/vistas/index.html'));
 }) 
@@ -21,5 +21,5 @@ app.get('/contacto', function(request, response) {
 
 // asignacion el puerto en el que correra la app
 app.listen(3000, function() {
-    console.log(' Servidor escuchando en el puerto 3000');
+    console.log('Servidor escuchando en el puerto 3000');
   });
