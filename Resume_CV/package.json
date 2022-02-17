@@ -1,0 +1,15 @@
+{
+  "name": "resume_cv",
+  "version": "1.0.0",
+  "description": "personal resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Garrido",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node": "^17.4.0"
+  }
+}
