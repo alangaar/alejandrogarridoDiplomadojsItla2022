@@ -29,11 +29,11 @@ body{
 
 .contenedor .izquierda{
     position: relative;
-    background: #003147;
+    background: #066591;
     padding: 40px;
 }
 
-.profileText{
+.perfilTexto{
      position: relative;
      display: flex;
      flex-direction: column;
@@ -42,7 +42,7 @@ body{
      
 }
 
-.profileText .imgBox{
+.perfilTexto .imgCaja{
     position: relative;
     width: 200px;
     height: 200px;
@@ -50,7 +50,7 @@ body{
     overflow: hidden;
 }
 
-.profileText .imgBox img{
+.perfilTexto .imgCaja img{
     position: absolute;
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@ body{
      
 }
 
-.profileText h2{
+.perfilTexto h2{
     color: rgb(5, 5, 5);
     font-size: 1.5em;
     margin-top: 20px;
@@ -70,7 +70,7 @@ body{
     line-height: 1.4em;
 }
 
-.profileText h2 span{
+.perfilTexto h2 span{
     font-size: 0.8em;
     font-weight: 300;
 
@@ -127,16 +127,8 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-/*#academic {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    
-}*/
-.contactInfo.education li{
+
+.contactInfo.educacion li{
     margin-bottom: 15px;
 }
 
@@ -145,4 +137,8 @@ p {
     background: #fff;
     padding: 40px;
 }
+
+.contenedor .derecha .title2{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+} 
 
