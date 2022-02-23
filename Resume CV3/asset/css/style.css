@@ -39,7 +39,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(95, 94, 94, 0.2);
 }
 
 .profileText .imgBx{
@@ -88,7 +88,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(95, 94, 94, 0.2);
 }
 
 .contactInfo ul{
