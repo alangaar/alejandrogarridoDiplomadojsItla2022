@@ -1,0 +1,29 @@
+Proyecto de Javascript(Diplomado de Javacript)
+
+Para nuestro proyecto final vamos a crear una app web la cual nos servira para ir registrando los gastos y consumos que vamos realizando en el dia a dia.
+
+### **🚀** Requerimientos técnicos
+
+- Pantalla de registro de gastos.
+- Pantalla de registro de ingresos.
+- Pantalla de listado de gastos e ingresos.
+- Agregar filtros a la pantalla de listado de gastos.
+    
+    **Filtros:**
+    
+    - Tipo: define si la la transacción es de ingresos y gastos.
+    - Monto: valor de la transacción.
+    - Fecha: fecha de registro.
+- Pantalla de listado de gastos e ingresos **agrupado**.
+
+### **✍️** Requerimientos de diseño
+
+- Nuestro proyecto debe ser responsive (que se adapte a los diferentes tipos de pantalla).
+- Es permitido utilizar librerias para el diseño. por ejemplo bootstrap
+- Se tomará en cuenta el acabo final del diseño para la calificación
+    
+    
+
+### **💪** Extras
+
+- Subir nuestro proyecto a un servicio de hosting gratuito, por ejemplo firebase de google.com
