@@ -3,7 +3,8 @@ const app = express()
 const path = require('node:path');
 
 // archivos estaticos
-app.use(express.static('asset/'));
+app.use(express.static('asset/'))
+app.use('/librerias',express.static('node_modules'))
 
 
 // rutas para HTML
