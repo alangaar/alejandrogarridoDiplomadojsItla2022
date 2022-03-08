@@ -1,0 +1,26 @@
+body {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+     background: #1c92d2;  /* para navegadores antiguos */
+      background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Para Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* Para W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+navbar {
+ background: rgb(34, 34, 39);
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
