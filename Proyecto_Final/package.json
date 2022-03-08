@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "node": "^17.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Proyecto Final del Diplomado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Alejandro Garrido",
+  "license": "ISC"
+}
