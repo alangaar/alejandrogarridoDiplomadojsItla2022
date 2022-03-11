@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/almacen_local.js"></script>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cuentas.js"></script>
+    <script src="js/gastos.js"></script>
+    <title>Ingresos</title>    
+</head>
+<body>
+    <div id="menu"></div>
+    <main class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4">
+                <div class="card my-5">
+                    <div class="card-header bg-primary bg-gradient text-white">
+                        <h3 class="card-title text-center">Registro de Gastos</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="mi-form">
+                            <div class="mb-3">
+                                <label class="form-label" for="listado-tipos">Cuenta</label>
+                                <select name="cuenta" id="listado-tipos" class="form-select" aria-label="Default select example"></select>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Monto</label>
+                              <input name="amount" type="number" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="mb-3">
+                              <label class="form-label" for="listado-tipos">Fecha</label>
+                              <input name="fecha" type="date" class="form-control" id="exampleCheck1">
+                            </div>
+                            <div class="mb-3">
+                              <label class="form-label" for="listado-tipos">Notas</label>
+                              <textarea name="notas"
+                                required
+                                 rows="3"   
+                                 class="form-control"   
+                                 placeholder="Notas"                                        
+                              ></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

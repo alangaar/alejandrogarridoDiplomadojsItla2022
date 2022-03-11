@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Clase5/MiProyecto/index.js
 const express = require('express')
 const app = express()
 const path = require('node:path');
@@ -23,7 +22,7 @@ app.get('/contacto', function(request, response) {
 // asignacion el puerto en el que correra la app
 app.listen(3000, function() {
     console.log('Servidor escuchando en el puerto 3000');
-=======
+
 const express = require('express')
 const app = express()
 const path = require('node:path');
@@ -46,7 +45,6 @@ app.get('/contacto', function(request, response) {
 })
 
 // asignacion el puerto en el que correra la app
-app.listen(3000, function() {
-    console.log('Servidor escuchando en el puerto 3000');
->>>>>>> 44ecd98002ff20feaf92dcbf2dbed882697ee66a:ProyectoFinal/index.js
-  });
+app.listen(3000, function(){
+    console.log('Servidor escuchando en el puerto 3000')
+});

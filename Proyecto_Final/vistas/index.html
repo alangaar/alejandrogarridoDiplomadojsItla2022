@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="css/style.css">
-    <!--<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    <script src="librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/almacen_local.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/listado.js"></script> 
     <title>Proyecto Final - Finanzas</title>
 </head>
 <body>
-    <h1>Mi Proyecto</h1>
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
-    </div>
+  <div id="menu"></div>
+    <br>
+      <div class="container-fluid ">
+          <div class="m-0 vh-100 row justify-content-center align-items-center ">
+                <div class="col-12 col-md-4">
+                    <div class="list-group" id="listado"></div>
+                </div>
+          </div>
+      </div>
+      
     
 </body>
 </html>

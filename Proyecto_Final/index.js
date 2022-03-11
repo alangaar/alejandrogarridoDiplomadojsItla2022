@@ -12,6 +12,14 @@ app.get('/', function(request, response) {
 response.sendFile(path.join(__dirname, '/vistas/index.html'));
 }) 
 
+app.get('/gastos', function(request, response) { 
+response.sendFile(path.join(__dirname, '/vistas/gastos.html'));
+})
+
+app.get('/ingresos', function(request, response) { 
+response.sendFile(path.join(__dirname, '/vistas/ingresos.html'));
+})
+
 //---------------------------------------------------------------------
 /*app.get('/tarjeta', function(request, response) { 
     response.sendFile(path.join(__dirname, '/vistas/tarjeta.html'));
