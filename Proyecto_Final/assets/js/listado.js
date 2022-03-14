@@ -30,10 +30,10 @@ window.addEventListener('load', function(event) {
          <a href="#" class="list-group-item list-group-item-action bg-primary bg-gradient text-white">
             <div class="d-flex w-100 justify-content-between text-white">
             <h5 class="mb-1">${tran.cuenta.name}</h5>  
-            <small class="text-muted ">${fechaRegistro}</small>
+            <small class="text-light">${fechaRegistro}</small>
             </div>
-            <p class="mb-1 ">${tran.notas}</p>
-            <small class="text-muted ">${tran.cuenta.type}: RD$ ${tran.amount}</small>
+            <p class="mb-1 ">descripcion: ${tran.notas}</p>
+            <small class="text-light">${tran.cuenta.type}: RD$ ${tran.amount}</small>
         </a>
         `;
     }

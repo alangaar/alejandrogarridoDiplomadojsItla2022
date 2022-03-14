@@ -12,7 +12,8 @@
     <script src="js/menu.js"></script>
     <script src="js/cuentas.js"></script>
     <script src="js/gastos.js"></script>
-    <title>Ingresos</title>    
+    <script src="js/validacion.js"></script>
+    <title>Gastos</title>    
 </head>
 <body>
     <div id="menu"></div>
@@ -30,9 +31,10 @@
                                 <select name="cuenta" id="listado-tipos" class="form-select" aria-label="Default select example"></select>
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Monto</label>
-                              <input name="amount" type="number" class="form-control" id="exampleInputPassword1" required>
-                            </div>
+                                <label for="exampleInputPassword1" class="form-label" min="1" >Monto</label>
+                                <input name="amount" type="number" class="form-control" id="exampleInputPassword1" min="0" onkeypress="return soloNumeros(event)" required>
+                                <small>*Este Campo solo recibe numeros</small>
+                              </div> 
                             <div class="mb-3">
                               <label class="form-label" for="listado-tipos">Fecha</label>
                               <input name="fecha" type="date" class="form-control" id="exampleCheck1">
