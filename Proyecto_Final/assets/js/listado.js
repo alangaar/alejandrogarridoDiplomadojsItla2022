@@ -30,10 +30,10 @@ window.addEventListener('load', function(event) {
         
 
         let filterData = data.filter( tran => tran.amount < amount)
-       /* filterData = data.filter( tran => {
+        filterData = data.filter( tran => {
             const tranFecha = new Date(tran.fecha_registro)
             return tranFecha.getTime() < fecha.getTime()
-        })*/
+        })
         renderizarLista(filterData)
     
     })
