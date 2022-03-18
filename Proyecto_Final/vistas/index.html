@@ -1,27 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     <script defer src="js/main.js"></script>
     <script defer src="js/almacen_local.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/listado.js"></script> 
+    <script src="js/listado.js"></script>
+    <!--<script src="js/validacion.js"></script>-->
     <title>Proyecto Final - Finanzas</title>
 </head>
+
 <body>
-  <div id="menu"></div>
-   
-      <div class="container-fluid ">
-          <div class="m-0 vh-100 row justify-content-center align-items-center ">
-                <div class="col-12  col-md-4">
-                    <div class="list-group" id="listado"></div>
+    <div id="menu"></div>
+
+    <div class="container-fluid ">
+        <div class="m-0 vh-100 row justify-content-center align-items-center ">
+            <div class="col-12 col-md-4">
+                <div class="card my-5">
+                    <div class="card-header bg-primary bg-gradient text-white">
+                        <h3 class="card-title text-center"><i class="bi bi-eye-fill"></i> &nbsp;Filtros</h3>
+                    </div>
+                    <div class="card-body">
+
+                        <form id="mi-form">
+
+                            <!--<div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label" min="1" ><i class="bi bi-cash-coin"></i> &nbsp; Monto</label>
+                              <input name="amount" step="any" type="number" class="form-control" id="exampleInputPassword1" min="1"  >  
+                            </div> -->
+
+                            <!-- <input type="radio" name="amount" id="" value="5000" id="exampleInputPassword1">menor a 5000
+                            <input type="radio" name="amount" id="" value="10000" id="exampleInputPassword1">menor a 10000
+                             -->
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label" min="1" ><i class="bi bi-cash-coin"></i> &nbsp; Rango Monto</label>
+                                <select name="amount" step="any" class="form-control" id="exampleInputPassword1">
+                                    <option></option>>
+                                    <option value="5000">Menor que 5000</option>
+                                    <option value="25000">Menor que 25000</option>
+                                    <option value="10000">Menor que 10000</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="listado-tipos"><i class="bi bi-calendar-date"></i> &nbsp;
+                                   Rango Fecha menor que</label>
+                                <input name="fecha" type="date" class="form-control" id="exampleCheck1">
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">Filtrar</button>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
-          </div>
-      </div>
-   
+            </div>
+            <div class="m-5 vh-50 row justify-content-center align-items-center ">
+                <div class="col-12  col-md-4">
+                    <hr>
+                    <h4 class="card-title text-center">Listado de Transacci&oacute;nes</h4><br>
+                    <div class="list-group" id="listado"></div>
+                    <br><br><br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
+
 </html>

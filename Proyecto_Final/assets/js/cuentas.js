@@ -1,4 +1,5 @@
 function getCuentas(){
+
     return[
         
         { name: "Transporte", type:"outcome"},

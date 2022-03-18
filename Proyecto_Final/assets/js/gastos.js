@@ -35,7 +35,28 @@ function salvar(event) {
         notas: event.target.elements["notas"].value
     }
 
-    salvarTransaccion(transaccion)
+    if(camposNovacios(transaccion)){
+        salvarTransaccion(transaccion)
+    }
+    
+    function camposNovacios(transaccion){
+        if(+transaccion.amount === 0){
+            alert('El Monto es un Campo Obligatorio')
+            return false
+        }
+        else if (!transaccion.fecha_registro) {
+            alert('La Fecha es un Campo Obligatorio')
+            return false
+        }
+        else if(!transaccion.notas){
+            alert('Notas es un Campo Obligatorio')
+            return false
+        }
+         else{
+            return true
+         }
+    }
+
 }
 
 window.addEventListener('load', function(event) {
